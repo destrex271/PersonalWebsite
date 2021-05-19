@@ -1,0 +1,143 @@
+
+html,body{
+    background-color: #171717;
+}
+
+
+.cenalign{
+    
+    text-align: center;
+    
+}
+
+
+nav a:hover { color: #fff !important;background-color: #efefef22; }
+a {color:darkgrey;}
+a:hover { color: #fff !important;text-decoration: none;}
+
+
+.fixbord{
+    border-radius: 0;
+}
+
+.backset{
+    background-color: #171717;
+}
+
+.backset2{
+    background-color: #071717;
+}
+
+.titlecol{
+    
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+.textr{
+    color: #ffddff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-left: 65;
+    padding-right: 65;
+}
+
+.first{
+    padding-left: 50;
+}
+.stuff{
+    color: #ffffff;
+    letter-spacing: 3.2;
+    word-spacing: 1;
+    font-family: 'Roboto', sans-serif;
+}
+.dfts{
+    text-align: center;
+}
+.tft{
+    letter-spacing: 4;
+    text-shadow: -6px 3px #ff00ef4f;
+}
+
+
+
+
+/* Animation */
+.typewriter {
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid transparent;
+}
+.typewriter-text2 {
+    display: inline-block;
+  	overflow: hidden;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+    border-right: 4px solid transparent;
+    
+}
+.typewriter-text21 {
+    display: inline-block;
+  	overflow: hidden;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    animation-iteration-count: 1;
+    white-space: nowrap;
+    border-right: 4px solid transparent;
+    
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: transparent; 
+    }
+}
+
+
+.difa{
+    color: #ffffff;
+    
+}
+
+.pad{
+    padding-top: 10%;
+}
+
+
+.avatar{
+    width: 35%;
+}
+
+.avatar-text{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1;
+    font-weight: 600;
+    color:#eeefef;
+}
